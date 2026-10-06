@@ -1,0 +1,1 @@
+export { default as UploadModel} from './upload.model'

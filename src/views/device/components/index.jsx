@@ -1,0 +1,1 @@
+export { default as InsertModal} from './insert-modal'
