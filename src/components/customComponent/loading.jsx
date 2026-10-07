@@ -33,7 +33,7 @@ const Loading = () => {
           }
         `}
       </style>
-      <img src="/img/app-logo.svg" alt="Company Logo" style={logoStyle} />
+      <img src="/img/track-logo.png" alt="Company Logo" style={logoStyle} />
     </div>
   );
 };

@@ -40,7 +40,7 @@ const Shell = ({ children, byear, setByear }) => {
             <i className="pi pi-bars" />
           </button>
           <Link to="/public" className="flex items-center gap-2 font-bold">
-            <img src="/img/app-logo.svg" alt="" className="h-8 w-8 rounded-full bg-white p-0.5" />
+            <img src="/img/track-logo.png" alt="" className="h-8 w-8 rounded-full bg-white p-0.5" />
             อบจ.นครราชสีมา
           </Link>
         </div>

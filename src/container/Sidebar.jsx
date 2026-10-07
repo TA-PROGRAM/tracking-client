@@ -30,8 +30,8 @@ function Sidebar(props) {
             <div className={`flex items-center ${isCollapsed ? "justify-center" : "justify-between gap-3"}`}>
               <Link to="/dashboard" className="min-w-0">
                 <div className={`flex items-center ${isCollapsed ? "justify-center" : "gap-3"}`}>
-                  <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-pink-500 via-rose-500 to-pink-700 shadow-lg shadow-pink-200/70">
-                    <img src="/img/app-logo.svg" alt="อบจ.นครราชสีมา" className="h-9 w-9 object-contain" />
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center">
+                    <img src="/img/track-logo.png" alt="อบจ.นครราชสีมา" className="h-14 w-14 object-contain" />
                   </div>
                   {!isCollapsed && (
                     <div className="min-w-0">
