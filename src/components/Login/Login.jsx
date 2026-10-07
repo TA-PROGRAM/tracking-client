@@ -51,7 +51,7 @@ const Login = () => {
                         <div className="mb-6 flex items-center gap-4">
                           <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-white/10 shadow-lg">
                             <img
-                              src="/img/logo-korat-secare.png"
+                              src="/img/app-logo.svg"
                               alt="Korat Secare"
                               className="h-11 w-11 object-contain"
                             />
@@ -113,7 +113,7 @@ const Login = () => {
                         >
                           <div className="flex h-20 w-20 items-center justify-center rounded-3xl bg-gradient-to-br from-pink-500 via-rose-500 to-pink-600 shadow-xl shadow-pink-200">
                             <img
-                              src="/img/logo-korat-secare.png"
+                              src="/img/app-logo.svg"
                               alt="Logo"
                               className="h-12 w-12 object-contain"
                             />

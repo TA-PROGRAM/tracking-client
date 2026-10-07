@@ -93,7 +93,7 @@ const ORG = {
   formTitle: "หน่วยงาน",
   sort: (a, b) => b.id - a.id,
   columns: [
-    { header: "โลโก้", body: (r) => (r.logo?.url ? <img src={r.logo.url} alt="" className="h-10 w-10 rounded-lg object-contain" /> : <img src="/img/logo-korat-secare.png" alt="" className="h-10 w-10 object-contain" />) },
+    { header: "โลโก้", body: (r) => (r.logo?.url ? <img src={r.logo.url} alt="" className="h-10 w-10 rounded-lg object-contain" /> : <img src="/img/app-logo.svg" alt="" className="h-10 w-10 object-contain" />) },
     { field: "name", header: "ชื่อหน่วยงาน" },
     { field: "shortname", header: "ชื่อย่อ" },
     { header: "ที่อยู่", body: (r) => `${r.address || ""} ต.${name("tambon", `${r.changwat}${r.ampur}${r.tambon}`)} อ.${name("ampur", `${r.changwat}${r.ampur}`)} จ.${name("changwat", r.changwat)}` },

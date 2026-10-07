@@ -33,7 +33,7 @@ const Loading = () => {
           }
         `}
       </style>
-      <img src="img/logo-korat-secare.png" alt="Company Logo" style={logoStyle} />
+      <img src="/img/app-logo.svg" alt="Company Logo" style={logoStyle} />
     </div>
   );
 };
